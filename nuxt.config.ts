@@ -12,5 +12,5 @@ export default defineNuxtConfig({
       'process.env.DEBUG': false,
     },
   },
-  app: {baseURL: '/Campus/'},
+  app: {baseURL: '/Cmp/'},
 })
