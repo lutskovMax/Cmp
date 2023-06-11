@@ -2,7 +2,7 @@
   <v-container class="status py-3 px-2">
     <v-row class="bg-white py-2 rounded-t-xl px-2">
       <v-col cols="auto">
-        <v-img src="/assets/images/icons/arrow-back.png"></v-img>
+        <img src="/assets/images/icons/arrow-back.png">
       </v-col>
       <v-divider class="mx-2 p-0 d-inline" vertical></v-divider>
       <v-col class="d-flex align-center">
@@ -15,8 +15,7 @@
     <v-row class="px-2 py-4 d-flex align-center">
       <v-col><h2 class="text-white">Open Campus</h2></v-col>
       <v-col class="ml-auto" cols="auto"
-        ><span class="bg-blue py-1 px-2 rounded">PENDING</span></v-col
-      >
+        ><span class="bg-blue py-1 px-2 rounded">PENDING</span></v-col>
     </v-row>
   </v-container>
 </template>

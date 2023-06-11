@@ -6,14 +6,12 @@
       >
       <v-col cols="auto" sm="auto" class="ml-auto px-0 px-sm-auto img-wrap" >
         <v-btn class="px-0 mx-2" variant="text"
-          ><v-img src="../assets/images/icons/open-1.svg"></v-img
-        ></v-btn>
+          ><img src="~/assets/images/icons/open-1.svg">
+      </v-btn>
         <v-btn  class="px-0 mx-2" variant="text"
-          ><v-img src="../assets/images/icons/open-2.svg"></v-img
-        ></v-btn>
+          ><img src="~/assets/images/icons/open-2.svg"></v-btn>
         <v-btn  class="px-0 mx-2" variant="text"
-          ><v-img src="../assets/images/icons/open-3.svg"></v-img
-        ></v-btn>
+          ><img src="~/assets/images/icons/open-3.svg"></v-btn>
       </v-col>
     </v-row>
 

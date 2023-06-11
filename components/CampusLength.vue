@@ -4,7 +4,7 @@
     <v-row class="px-4 px-sm-10 py-2">
       <v-row v-for="item in items" :key="item.id" class="mb-0 mb-xs-6 pl-14 pl-none">
         <v-col class="px-0" cols="1" sm="auto">
-          <v-img src="../assets/images/length.svg"></v-img>
+          <img class="lnh-image" src="~/assets/images/length.svg" alt="">
         </v-col>
         <v-col cols="11" sm="9">
           <h2 class="mb-2 lengh-title">{{ item.title }}</h2>

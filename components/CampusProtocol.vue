@@ -1,8 +1,8 @@
 <template>
-  <v-container class="bg-white py-2 rounded-xl pb-11 pt-7">
+  <v-container class="bg-white py-2 rounded-xl pb-11 pt-4">
     <v-row class="px-4 py-2">
       <v-col cols="12" sm="auto" class="pr-xs-0 pr-sm-4 px-0">
-        <v-img src="/assets/images/protocol.png"></v-img>
+        <img src="~/assets/images/protocol.png">
       </v-col>
       <v-col cols="auto px-0">
         <h2 class="title mb-3">Open Campus</h2>
@@ -15,7 +15,7 @@
           <v-col cols="12" sm="auto" class="px-0">
             <v-btn class="mr-2 text-black" variant="tonal">
               <span class="mr-1">
-                <v-img src="../assets/images/icons/link.svg"></v-img>
+                  <img  src="~/assets/images/icons/link.svg">
               </span>
               Сайт
             </v-btn>
@@ -31,14 +31,14 @@
           <v-col cols="12" sm="auto" class="px-0 text-right">
             <v-btn class="mr-2 text-black" variant="tonal">
               <span class="mr-1">
-                <v-img src="../assets/images/icons/doc.svg"></v-img>
+                <img src="~/assets/images/icons/doc.svg">
               </span>
               Подробности
             </v-btn>
 
             <v-btn variant="tonal" class="text-black">
               <span class="mr-1">
-                <v-img src="../assets/images/icons/faq.svg"></v-img>
+                <img src="~/assets/images/icons/faq.svg">
               </span>
               FAQ
             </v-btn>
@@ -116,6 +116,13 @@ export default {
     font-size: 24px;
   }
 }
+
+@media (max-width: 768px) {
+    img {
+      width: 100%;
+    }
+}
+
 
 .calendar {
   &:last-child {
