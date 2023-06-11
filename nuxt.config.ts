@@ -13,4 +13,9 @@ export default defineNuxtConfig({
     },
   },
   app: {baseURL: '/Cmp/'},
+  runtimeConfig: {
+    public: {
+       baseURL: '/Cmp/' // Exposed to the frontend as well.
+    }
+  }
 })
